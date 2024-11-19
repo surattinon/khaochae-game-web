@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-import MarketWide from "@img/bgs/2.PNG";
+import MarketWide from "./img/bgs/2.png";
 
 import { motion, useAnimationControls } from "framer-motion";
 import { redirect } from "next/navigation";
