@@ -25,7 +25,7 @@ export default function Home() {
       setOpacity(1);
       return;
     }
-    if (DialogIndex === handleDialog.length - 1) {
+    if (DialogIndex === handleDialog().length - 1) {
       redirect("/endGame");
     } else {
       setDialogIndex(DialogIndex + 1);
