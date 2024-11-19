@@ -1,7 +1,7 @@
-import MarketWide from "@public/img/bgs/2.PNG";
-import InMarket from "@public/img/bgs/3.PNG";
+import MarketWide from "@img/bgs/2.PNG";
+import InMarket from "@img/bgs/3.PNG";
 
-import Hidden from "@public/img/elements/hidden-element.png";
+import Hidden from "@img/elements/hidden-element.png";
 
 export default function handleDialog() {
   const market1Dialog: {
