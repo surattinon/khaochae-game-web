@@ -1,8 +1,6 @@
 import MarketWide from "/public/img/bgs/2.PNG";
 import InMarket from "/public/img/bgs/3.PNG";
 
-import MaePetch from "/public/img/chars/แม่เพชร.PNG";
-
 export default function handleDialog() {
   const market1Dialog: {
     id: string;
