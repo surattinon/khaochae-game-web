@@ -47,7 +47,7 @@ export default function Home() {
           }}
           whileTap={{ scale: 0.9 }}
         >
-          <h1 className="text-3xl">Game Start!</h1>
+          <h1 className="text-3xl">เริ่มเกม</h1>
         </motion.button>
         <motion.div
           className="w-full h-full absolute"
