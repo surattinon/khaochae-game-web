@@ -16,7 +16,9 @@ export default function Home() {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  async function handleNextDialog() {
+  async function handleNextDialog(choice: "choice1" | "choice2" | "nextBtn") {
+    console.log(dialog.id);
+    console.log(dialog.btn?.choice2);
     if (dialog.id === "002") {
       setOpacity(0);
       await sleep(1000);
@@ -25,6 +27,12 @@ export default function Home() {
       setOpacity(1);
       return;
     }
+
+    if (dialog.id === "006" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 4);
+      return;
+    }
+
     if (DialogIndex === handleDialog().length - 1) {
       redirect("/endGame");
     } else {
@@ -44,7 +52,7 @@ export default function Home() {
           />
         </div>
         <div
-          className={`z-50 absolute flex flex-col justify-between w-80 h-36 bg-white border-solid border-[#725949] border-[7px] self-center bottom-48 rounded-2xl p-3 transition-all duration-700`}
+          className={`z-50 absolute flex flex-col justify-between w-80 h-52 bg-white border-solid border-[#725949] border-[7px] self-center bottom-24 rounded-2xl p-3 transition-all duration-700`}
           style={{
             opacity: `${Opacity}`,
           }}
@@ -53,23 +61,48 @@ export default function Home() {
             <h1 className="font-bold text-lg">{dialog.name}</h1>
             <p className="text-sm">{dialog.text}</p>
           </div>
-          <button
-            className="self-end mt-3 text-black"
-            onClick={handleNextDialog}
-          >
-            ถัดไป..
-          </button>
+          <div className="flex w-full justify-between px-3">
+            <div className="flex flex-col justify-end">
+              <button
+                style={{
+                  opacity: `${dialog.btn?.choice1?.active ? 1 : 0}`,
+                }}
+                className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
+                onClick={() => handleNextDialog("choice1")}
+              >
+                {dialog.btn?.choice1?.text}
+              </button>
+              <button
+                style={{
+                  opacity: `${dialog.btn?.choice2?.active ? 1 : 0}`,
+                }}
+                className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
+                onClick={() => handleNextDialog("choice2")}
+              >
+                {dialog.btn?.choice2?.text}
+              </button>
+            </div>
+            <button
+              style={{
+                opacity: `${dialog.btn?.nextBtn?.active ? 1 : 0}`,
+              }}
+              className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
+              onClick={() => handleNextDialog("nextBtn")}
+            >
+              {dialog.btn?.nextBtn?.text}
+            </button>
+          </div>
         </div>
-        <div className="absolute z-40 w-80 flex justify-center self-center bottom-[22rem]">
+        <div className="absolute z-40 w-80 flex justify-center self-center bottom-[19rem]">
           <Image
-            className="self-center w-full scale-[1.7]"
+            className="self-center w-full scale-[2]"
             src={dialog.char1}
             alt="character"
             width={700}
             height={400}
           />
           <Image
-            className="self-center w-full scale-[1.7]"
+            className="self-center w-full scale-[2]"
             src={dialog.char2}
             alt="character"
             width={700}
