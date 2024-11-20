@@ -93,16 +93,16 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="absolute z-40 w-80 flex justify-center self-center bottom-[19rem]">
+        <div className="absolute z-40 w-72 flex justify-center self-center bottom-[19rem]">
           <Image
-            className="self-center w-full scale-[2]"
+            className="self-center w-full scale-[1.7]"
             src={dialog.char1}
             alt="character"
             width={700}
             height={400}
           />
           <Image
-            className="self-center w-full scale-[2]"
+            className="self-center w-full scale-[1.7]"
             src={dialog.char2}
             alt="character"
             width={700}
