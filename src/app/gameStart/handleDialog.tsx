@@ -323,7 +323,7 @@ export default function handleDialog() {
       id: "014",
       name: "คุณ",
       text: "เฮ้ยยย!!!??",
-      bgImg: Hidden.src,
+      bgImg: inMarketFrame.src,
       char1: Hidden.src,
       char2: Hidden.src,
       btn: {
@@ -336,7 +336,7 @@ export default function handleDialog() {
           text: "",
         },
         nextBtn: {
-          active: true,
+          active: false,
           text: "ต่อไป",
         },
       },
@@ -410,28 +410,6 @@ export default function handleDialog() {
     {
       id: "018",
       name: "คุณ",
-      text: "ใครอะ? พูดกับเราหรอ? (คิดในใจ)",
-      bgImg: oldHouseWide.src,
-      char1: Hidden.src,
-      char2: Hidden.src,
-      btn: {
-        choice1: {
-          active: true,
-          text: "ที่นี่คือ?",
-        },
-        choice2: {
-          active: false,
-          text: "",
-        },
-        nextBtn: {
-          active: false,
-          text: "ต่อไป",
-        },
-      },
-    },
-    {
-      id: "019",
-      name: "คุณ",
       text: "ขอโทษนะ แต่ทีนีคือ-",
       bgImg: oldHouseWide.src,
       char1: Hidden.src,
@@ -452,7 +430,7 @@ export default function handleDialog() {
       },
     },
     {
-      id: "020",
+      id: "019",
       name: "จัน",
       text: "โธ่! มานีเลยยยย! จะมาช่วยครัวแล้วยังจะแอบอู้งานอีก!",
       bgImg: oldHouseWide.src,
@@ -474,7 +452,7 @@ export default function handleDialog() {
       },
     },
     {
-      id: "021",
+      id: "020",
       name: "คุณ",
       text: "ทีไหน- อ่าว เดินช้าๆ หน่อยสิ!",
       bgImg: oldHouseWide.src,
@@ -496,7 +474,7 @@ export default function handleDialog() {
       },
     },
     {
-      id: "022",
+      id: "021",
       name: "แม่เพชร",
       text: "อ้าว นายจัน หนวดเขียว ข้ากําลังรอท่านอยู่พอดี",
       bgImg: oldHouseClose.src,
@@ -518,7 +496,7 @@ export default function handleDialog() {
       },
     },
     {
-      id: "023",
+      id: "022",
       name: "แม่เพชร",
       text: "แล้วอีกท่านคือ?",
       bgImg: oldHouseClose.src,

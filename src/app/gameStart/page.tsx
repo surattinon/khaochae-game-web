@@ -9,6 +9,7 @@ import handleDialog from "./handleDialog";
 export default function Home() {
   const [DialogIndex, setDialogIndex] = React.useState(0);
   const [Opacity, setOpacity] = React.useState(1);
+  const [FlashOpacity, setFlashOpacity] = React.useState(0);
 
   const dialog = handleDialog()[DialogIndex];
 
@@ -18,12 +19,26 @@ export default function Home() {
 
   async function handleNextDialog(choice: "choice1" | "choice2" | "nextBtn") {
     console.log(dialog.id);
-    console.log(dialog.btn?.choice2);
+    console.log(DialogIndex);
     if (dialog.id === "002") {
       setOpacity(0);
       await sleep(1000);
       setDialogIndex(DialogIndex + 1);
       await sleep(2000);
+      setOpacity(1);
+      return;
+    }
+
+    if (dialog.id === "013") {
+      setFlashOpacity(1);
+      setDialogIndex(DialogIndex + 1);
+      await sleep(1000);
+      setOpacity(0);
+      await sleep(1000);
+      setDialogIndex(DialogIndex + 2);
+      await sleep(1000);
+      setFlashOpacity(0);
+      await sleep(1000);
       setOpacity(1);
       return;
     }
@@ -93,6 +108,10 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <div
+          style={{ opacity: `${FlashOpacity}` }}
+          className="absolute z-30 top-0 left-0 w-screen h-screen bg-white transition-all duration-1000"
+        />
         <div className="absolute z-40 w-52 flex justify-center self-center bottom-[17rem]">
           <Image
             className="self-center w-full scale-[1.4]"
