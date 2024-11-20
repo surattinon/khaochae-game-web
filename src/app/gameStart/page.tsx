@@ -73,7 +73,7 @@ export default function Home() {
           }}
         >
           <div className="text-black">
-            <h1 className="font-bold text-lg">{dialog.name}:</h1>
+            <h1 className="font-bold text-lg mb-2">{dialog.name}:</h1>
             <p className="text-sm">{dialog.text}</p>
           </div>
           <div className="flex w-full justify-between px-3">
