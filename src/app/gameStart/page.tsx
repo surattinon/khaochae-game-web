@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { redirect } from "next/navigation";
+import { motion } from "framer-motion";
 
 import handleDialog from "./handleDialog";
 
@@ -78,34 +79,49 @@ export default function Home() {
           </div>
           <div className="flex w-full justify-between px-3">
             <div className="flex flex-col justify-end">
-              <button
+              <motion.button
                 style={{
                   opacity: `${dialog.btn?.choice1?.active ? 1 : 0}`,
                 }}
                 className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
                 onClick={() => handleNextDialog("choice1")}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}
+                whileTap={{ scale: 0.9 }}
               >
                 {dialog.btn?.choice1?.text}
-              </button>
-              <button
+              </motion.button>
+              <motion.button
                 style={{
                   opacity: `${dialog.btn?.choice2?.active ? 1 : 0}`,
                 }}
                 className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
                 onClick={() => handleNextDialog("choice2")}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}
+                whileTap={{ scale: 0.9 }}
               >
                 {dialog.btn?.choice2?.text}
-              </button>
+              </motion.button>
             </div>
-            <button
+            <motion.button
               style={{
                 opacity: `${dialog.btn?.nextBtn?.active ? 1 : 0}`,
               }}
               className="mt-3 text-[#FFDE73] px-3 py-1 bg-[#98806f] border-[#FFDE73] border-[2px] rounded-lg shadow-md"
               onClick={() => handleNextDialog("nextBtn")}
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.2 },
+              }}
+              whileTap={{ scale: 0.9 }}
             >
               {dialog.btn?.nextBtn?.text}
-            </button>
+            </motion.button>
           </div>
         </div>
         <div
