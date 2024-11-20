@@ -1,8 +1,12 @@
 import MarketWide from "../img/bgs/2.png";
 import InMarket from "../img/bgs/3.png";
 import inMarketFrame from "../img/bgs/4.png";
+import oldHouseWide from "../img/bgs/5.png";
+import oldHouseClose from "../img/bgs/6.png";
 
 import Grandma from "../img/chars/คุณยายใจดี.png";
+import Jun from "../img/chars/นายจัน.png";
+import Meapetch from "../img/chars/แม่เพชร.png";
 import Hidden from "../img/elements/hidden-element.png";
 
 export default function handleDialog() {
@@ -300,6 +304,226 @@ export default function handleDialog() {
       bgImg: inMarketFrame.src,
       char1: Grandma.src,
       char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "014",
+      name: "คุณ",
+      text: "เฮ้ยยย!!!??",
+      bgImg: Hidden.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "015",
+      name: "คุณ",
+      text: "อืมมม…? ทีนี่?",
+      bgImg: oldHouseWide.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "016",
+      name: "จัน",
+      text: "นีมันยามใดกันแล้ว เจ้าขีคร้านนี! เจ้ายังมีหน้าหนีมาแอบหลับในครัวงันรึ!?",
+      bgImg: oldHouseWide.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "017",
+      name: "คุณ",
+      text: "ใครอะ? พูดกับเราหรอ? (คิดในใจ)",
+      bgImg: oldHouseWide.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "018",
+      name: "คุณ",
+      text: "ใครอะ? พูดกับเราหรอ? (คิดในใจ)",
+      bgImg: oldHouseWide.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: true,
+          text: "ที่นี่คือ?",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: false,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "019",
+      name: "คุณ",
+      text: "ขอโทษนะ แต่ทีนีคือ-",
+      bgImg: oldHouseWide.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "020",
+      name: "จัน",
+      text: "โธ่! มานีเลยยยย! จะมาช่วยครัวแล้วยังจะแอบอู้งานอีก!",
+      bgImg: oldHouseWide.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "021",
+      name: "คุณ",
+      text: "ทีไหน- อ่าว เดินช้าๆ หน่อยสิ!",
+      bgImg: oldHouseWide.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "022",
+      name: "แม่เพชร",
+      text: "อ้าว นายจัน หนวดเขียว ข้ากําลังรอท่านอยู่พอดี",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "023",
+      name: "แม่เพชร",
+      text: "แล้วอีกท่านคือ?",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
       btn: {
         choice1: {
           active: false,
