@@ -6,6 +6,8 @@ import { redirect } from "next/navigation";
 import { motion } from "framer-motion";
 
 import handleDialog from "./handleDialog";
+import MaliItem from "./components/MaliItem";
+import { Ingediant } from "./components/Ingediant";
 
 export default function Home() {
   const [DialogIndex, setDialogIndex] = React.useState(0);
@@ -19,8 +21,6 @@ export default function Home() {
   }
 
   async function handleNextDialog(choice: "choice1" | "choice2" | "nextBtn") {
-    console.log(dialog.id);
-    console.log(DialogIndex);
     if (dialog.id === "002") {
       setOpacity(0);
       await sleep(1000);
@@ -49,6 +49,56 @@ export default function Home() {
       return;
     }
 
+    if (dialog.id === "050" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "051") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "070" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 5);
+      return;
+    }
+
+    if (dialog.id === "074") {
+      setDialogIndex(DialogIndex + 8);
+      return;
+    }
+
+    if (dialog.id === "091") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "090" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "105") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "104" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
+    if (dialog.id === "135") {
+      setDialogIndex(DialogIndex + 4);
+      return;
+    }
+
+    if (dialog.id === "134" && choice === "choice2") {
+      setDialogIndex(DialogIndex + 2);
+      return;
+    }
+
     if (DialogIndex === handleDialog().length - 1) {
       redirect("/endGame");
     } else {
@@ -68,7 +118,7 @@ export default function Home() {
           />
         </div>
         <div
-          className={`z-50 absolute flex flex-col justify-between w-80 h-52 bg-white border-solid border-[#725949] border-[7px] self-center bottom-24 rounded-2xl p-3 transition-all duration-700 shadow-lg`}
+          className={`z-50 absolute flex flex-col justify-between w-80 h-60 bg-white border-solid border-[#725949] border-[7px] self-center bottom-14 rounded-2xl p-3 transition-all duration-700 shadow-lg`}
           style={{
             opacity: `${Opacity}`,
           }}
@@ -144,6 +194,8 @@ export default function Home() {
             height={400}
           />
         </div>
+        {dialog.id === "047" && <MaliItem />}
+        {dialog.id === "143" && <Ingediant />}
       </div>
     </main>
   );

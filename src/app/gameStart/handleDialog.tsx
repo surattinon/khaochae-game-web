@@ -2430,7 +2430,7 @@ export default function handleDialog() {
         },
         choice2: {
           active: true,
-          text: "ยืนมองด้วยสายตาบีบบังคับ",
+          text: "กดดันด้วยสายตา",
         },
         nextBtn: {
           active: false,
@@ -3189,7 +3189,7 @@ export default function handleDialog() {
     {
       id: "138",
       name: "",
-      text: "*คุณได้รับปลายีสนจํานวนมาก*",
+      text: "*แม้จะวุ่นวายแต่คุณได้ปลารับปลายีสนเป็นจํานวนมาก*",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
