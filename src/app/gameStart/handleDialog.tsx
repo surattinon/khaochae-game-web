@@ -12,7 +12,7 @@ import Grandma from "../img/chars/คุณยายใจดี.png";
 import Jun from "../img/chars/นายจัน.png";
 import Meapetch from "../img/chars/แม่เพชร.png";
 import SaltFarmer from "../img/chars/ชาวนาเกลือ.png";
-import Plonyisa from "../img/chars/ปลนยี่สา.png";
+import Plonyisa from "../img/chars/ภูต_ปลนยี่สา.png";
 import Monkey from "../img/chars/ลิง_ประกิต.png";
 import Hidden from "../img/elements/hidden-element.png";
 
@@ -3346,7 +3346,7 @@ export default function handleDialog() {
       text: "*แม่เพชรหายไปในครัวสักพักหนึง และออกมาพร้อมกับข้าวแช่ทีสําเร็จแล้ว*",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
-      char2: Meapetch.src,
+      char2: Hidden.src,
       btn: {
         choice1: {
           active: false,
