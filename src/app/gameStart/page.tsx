@@ -8,7 +8,9 @@ import { motion } from "framer-motion";
 import handleDialog from "./handleDialog";
 import MaliItem from "./components/MaliItem";
 import { Ingediant } from "./components/Ingediant";
+import { Ingrediant2 } from "./components/Ingrediant2";
 import SoundBg from "../Sound/SoundBg";
+import { SaltFlowerItem } from "./components/SaltFlowerItem";
 
 export default function Home() {
   const [DialogIndex, setDialogIndex] = React.useState(0);
@@ -198,6 +200,8 @@ export default function Home() {
         </div>
         {dialog.id === "047" && <MaliItem />}
         {dialog.id === "143" && <Ingediant />}
+        {dialog.id === "150" && <Ingrediant2 />}
+        {dialog.id === "062" && <SaltFlowerItem />}
       </div>
     </main>
   );

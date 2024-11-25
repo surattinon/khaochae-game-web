@@ -21,7 +21,7 @@ export default function handleDialog() {
     {
       id: "001",
       name: "คุณ",
-      text: " ว้าว ตลาดเมืองเก่าเพชรบุรีนี ของเยอะแยะไปหมดเลย",
+      text: " ว้าว ตลาดเมืองเก่าเพชรบุรีนี่! ของเยอะแยะไปหมดเลย",
       bgImg: MarketWide.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -138,7 +138,7 @@ export default function handleDialog() {
       btn: {
         choice1: {
           active: true,
-          text: "ข้าวแช่ ใช่... ?",
+          text: "ใช่แล้ว ข้าวแช่... ",
         },
         choice2: {
           active: true,
@@ -285,7 +285,7 @@ export default function handleDialog() {
     {
       id: "012",
       name: "คุณยาย",
-      text: "อ๋อ แม่เพชรจ้ะ ต้นตําหรับสูตรและบรรพบุรุษยายเอง",
+      text: "อ๋อ แม่เพชรจ้ะ ต้นตํารับสูตรและบรรพบุรุษยายเอง",
       bgImg: inMarketFrame.src,
       char1: Grandma.src,
       char2: Hidden.src,
@@ -307,7 +307,7 @@ export default function handleDialog() {
     {
       id: "013",
       name: "คุณยาย",
-      text: "มานีสิ เดียวยายจะเล่าอะไรให้ฟัง",
+      text: "มานี่สิ เดียวยายจะเล่าอะไรให้ฟัง",
       bgImg: inMarketFrame.src,
       char1: Grandma.src,
       char2: Hidden.src,
@@ -351,7 +351,7 @@ export default function handleDialog() {
     {
       id: "015",
       name: "คุณ",
-      text: "อืมมม…? ทีนี่?",
+      text: "อืมมม…? ที่นี่?",
       bgImg: oldHouseWide.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -373,7 +373,7 @@ export default function handleDialog() {
     {
       id: "016",
       name: "จัน",
-      text: "นีมันยามใดกันแล้ว เจ้าขีคร้านนี! เจ้ายังมีหน้าหนีมาแอบหลับในครัวงันรึ!?",
+      text: "นี่มันยามใดกันแล้ว เจ้าขี้คร้านนี! เจ้ายังมีหน้าหนีมาแอบหลับในครัวงั้นรึ!?",
       bgImg: oldHouseWide.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -417,7 +417,7 @@ export default function handleDialog() {
     {
       id: "018",
       name: "คุณ",
-      text: "ขอโทษนะ แต่ทีนีคือ-",
+      text: "ขอโทษนะ แต่ที่นี่คือ-",
       bgImg: oldHouseWide.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -439,7 +439,7 @@ export default function handleDialog() {
     {
       id: "019",
       name: "จัน",
-      text: "โธ่! มานีเลยยยย! จะมาช่วยครัวแล้วยังจะแอบอู้งานอีก!",
+      text: "โธ่! มานี่เลยยยย! จะมาช่วยครัวแล้วยังจะแอบอู้งานอีก!",
       bgImg: oldHouseWide.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -483,7 +483,7 @@ export default function handleDialog() {
     {
       id: "021",
       name: "แม่เพชร",
-      text: "อ้าว นายจัน หนวดเขียว ข้ากําลังรอท่านอยู่พอดี",
+      text: "อ้าว นายจัน หนวดเขี้ยว ข้ากําลังรอท่านอยู่พอดี",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -527,7 +527,7 @@ export default function handleDialog() {
     {
       id: "023",
       name: "คุณ",
-      text: "(คิดในใจ : นันมัน!!? คนทีเห็นในรูปร้านคุณยายเมือกีนีนี หรือว่าจะเป็น!!?)",
+      text: "(คิดในใจ : นั้นมัน!!? คนที่เห็นในรูปร้านคุณยายเมื่อกี้นี้นี่ หรือว่าจะเป็น!!?)",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -571,7 +571,7 @@ export default function handleDialog() {
     {
       id: "025",
       name: "จัน",
-      text: "เจ้ายังไม่ตืนดีงันรึ!? ท่านนีคือแม่เพชร นายหญิงของเราเจ้าของครัวแห่งนีอย่�����งไรเล่า!",
+      text: "เจ้ายังไม่ตื่นดีงั้นรึ!? ท่านนีคือแม่เพชร นายหญิงของเราเจ้าของครัวแห่งนี้อย่างไรเล่า!",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -593,7 +593,7 @@ export default function handleDialog() {
     {
       id: "026",
       name: "จัน",
-      text: "เจ้านีน่ะเป็นมือใหม่ทีครัวของวังเราพึงรับเข้ามาวันนีขอรับ",
+      text: "เจ้านี่น่ะเป็นมือใหม่ที่ครัวของวังเราพึ่งรับเข้ามาวันนีขอรับ",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -615,7 +615,7 @@ export default function handleDialog() {
     {
       id: "027",
       name: "จัน",
-      text: "กระผมต้องขออภัยแทนเจ้านีด้วย",
+      text: "กระผมต้องขออภัยแทนเจ้านี่ด้วย",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -637,7 +637,7 @@ export default function handleDialog() {
     {
       id: "028",
       name: "คุณ",
-      text: "(คิดในใจ : โห อะไรอีกเนีย เจ๋งไปป้ะ ตืนมาอีกทีก็กลายเป็นเชฟชาววังซะละ)",
+      text: "(คิดในใจ : โห อะไรอีกเนีย เจ๋งไปป้ะ ตื่นมาอีกทีก็กลายเป็นเชฟชาววังซะละ)",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -659,7 +659,7 @@ export default function handleDialog() {
     {
       id: "029",
       name: "แม่เพชร",
-      text: "ไม่เป็นไรจ้ะ อย่างไรก็ดี ถือเป็นเรืองน่ายินดีนักทีเจ้าสนใจมาทํางานในครัวของเราเช่นนี ขอ ต้อนรับเข้าสู่ครัวของข้า",
+      text: "ไม่เป็นไรจ้ะ อย่างไรก็ดี ถือเป็นเรื่องน่ายินดีนักที่เจ้าสนใจมาทํางานในครัวของเราเช่นนี้ ขอ ต้อนรับเข้าสู่ครัวของข้า",
       bgImg: oldHouseClose.src,
       char1: Hidden.src,
       char2: Meapetch.src,
@@ -681,7 +681,7 @@ export default function handleDialog() {
     {
       id: "030",
       name: "คุณ",
-      text: "(คิดในใจ : แล้ว…อันนีทีคุณยายเจ้าของร้านบอกว่าคือข้าวแช่นี)",
+      text: "(คิดในใจ : แล้ว…อันนี้ที่คุณยายเจ้าของร้านบอกว่าคือข้าวแช่นี่)",
       bgImg: oldHouseClose.src,
       char1: Hidden.src,
       char2: Meapetch.src,
@@ -725,7 +725,7 @@ export default function handleDialog() {
     {
       id: "032",
       name: "แม่เพชร",
-      text: "เปิง หมายถึงข้าว ส่วนด๊าดจ์ หมายถึงน้ำจ้ะ\nข้าวแช่เพิงจะถูกเผยแพร่เข้ามาทีนีไม่นานนัก",
+      text: "เปิง หมายถึงข้าว ส่วนด๊าดจ์ หมายถึงน้ำจ้ะ\nข้าวแช่เพิ่งจะถูกเผยแพร่เข้ามาที่นี่ไม่นานนัก",
       bgImg: oldHouseClose.src,
       char1: Hidden.src,
       char2: Meapetch.src,
@@ -747,7 +747,7 @@ export default function handleDialog() {
     {
       id: "033",
       name: "คุณ",
-      text: "เดียวนะ นีสมัยรัชกาลทีเท่าไหร่?",
+      text: "เดี๋ยวนะ นี่สมัยรัชกาลทีเท่าไหร่?",
       bgImg: oldHouseClose.src,
       char1: Hidden.src,
       char2: Meapetch.src,
@@ -769,7 +769,7 @@ export default function handleDialog() {
     {
       id: "033",
       name: "แม่เพชร",
-      text: "เจ้าถามพิลึกนัก ตอนนีเราอยู่ในสมัยการปกครองของรัชกาลที 4 อย่างไรเล่า",
+      text: "เจ้าถามพิลึกนัก ตอนนี้เราอยู่ในสมัยการปกครองของรัชกาลที 4 อย่างไรเล่า",
       bgImg: oldHouseClose.src,
       char1: Hidden.src,
       char2: Meapetch.src,
@@ -901,7 +901,7 @@ export default function handleDialog() {
     {
       id: "039",
       name: "นายจัน & แม่เพชร",
-      text: "เจ้าว่าเยียงไรนะ!!?",
+      text: "เจ้าว่าเยี่ยงไรนะ!!?",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -923,7 +923,7 @@ export default function handleDialog() {
     {
       id: "040",
       name: "จัน",
-      text: "แย่แล้ว แบบนีจะทําอย่างไรดี",
+      text: "แย่แล้ว แบบนี้จะทําอย่างไรดี",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -945,7 +945,7 @@ export default function handleDialog() {
     {
       id: "041",
       name: "แม่เพชร",
-      text: "ข้านึกออกแล้ว งันเอาเช่นนีดีหรือไม่\nเจ้า 2 คนไปช่วยหาวัตถุดิบทําข้าวแช่มาให้ข้าที",
+      text: "ข้านึกออกแล้ว งั้นเอาเช่นนี้ดีหรือไม่\nเจ้า 2 คนไปช่วยหาวัตถุดิบทําข้าวแช่มาให้ข้าที",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -989,7 +989,7 @@ export default function handleDialog() {
     {
       id: "042",
       name: "แม่เพชร",
-      text: "ส่วนจัน เจ้าก็ดูแลเพือนของเจ้าให้ดีล่ะ",
+      text: "ส่วนจัน เจ้าก็ดูแลเพื่อนของเจ้าให้ดีล่ะ",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -1033,7 +1033,7 @@ export default function handleDialog() {
     {
       id: "044",
       name: "จัน",
-      text: "เอาล่ะ อย่างแรกทีต้องมีเลยคือ ดอกมะลิ ข้างเรือนเรามีส่วนทีปลูกกันเองอยู่ตามข้ามา",
+      text: "เอาล่ะ อย่างแรกที่ต้องมีเลยคือ ดอกมะลิ ข้างเรือนเรามีส่วนที่ปลูกกันเองอยู่ตามข้ามา",
       bgImg: oldHouseWide.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1055,7 +1055,7 @@ export default function handleDialog() {
     {
       id: "045",
       name: "คุณ",
-      text: "โห กลินหอมมาก",
+      text: "โห กลิ่นหอมมาก",
       bgImg: MaliTree.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1077,7 +1077,7 @@ export default function handleDialog() {
     {
       id: "046",
       name: "จัน",
-      text: "ฮ่าฮ่าฮ่า นีแหละดอกมะลิทีข้าพิถีพิถันดูแลกัน เจ้าเด็ดมาได้เลย",
+      text: "ฮ่าฮ่าฮ่า นี่แหละดอกมะลิที่ข้าพิถีพิถันดูแลกัน เจ้าเด็ดมาได้เลย",
       bgImg: MaliTree.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1121,7 +1121,7 @@ export default function handleDialog() {
     {
       id: "048",
       name: "จัน",
-      text: "โธ่เจ้านีไม่รู้เรืองเสียเลย\nดอกมะลิ เขาเอามาลอยพร้อมกับข้าวแช่เพือให้กลินหอมอย่างไรเล่า",
+      text: "โธ่เจ้านีไม่รู้เรื่องเสียเลย\nดอกมะลิ เข้าเอามาลอยพร้อมกับข้าวแช่เพื่อให้กลิ่นหอมอย่างไรเล่า",
       bgImg: MaliTree.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1143,7 +1143,7 @@ export default function handleDialog() {
     {
       id: "048",
       name: "คุณ",
-      text: "เป็นเช่นนันนีเอง",
+      text: "เป็นเช่นนันนี่เอง",
       bgImg: MaliTree.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1209,7 +1209,7 @@ export default function handleDialog() {
     {
       id: "051",
       name: "",
-      text: " เจ้าเจอชายหาดสวยงาม แม้จะใช้เวลาเพิมอีกนิดแต่ได้ชืนชม�����วามสว���งามและลมริม ทะเลแสนสบาย",
+      text: " ��จ้าเจอชายหาดสวยงาม แม้จะใช้เวลาเพิ่มอีกนิดแต่ได้ชื่นชมความสวยงามและลมริมทะเลแสนสบาย",
       bgImg: Beach.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -1231,7 +1231,7 @@ export default function handleDialog() {
     {
       id: "052",
       name: "",
-      text: "สองข้างทางเป็นนาข้าว ถึงจะดูธรรมดาทัวไปแต่ก็อดปฎิเสธไม่ได้ว่าก็ดูเขียวอุดม สมบูรณ์ สวยงามดีนะ",
+      text: "สองข้างทางเป็นนาข้าว ถึงจะดูธรรมดาทั่วไปแต่ก็อดปฎิเสธไม่ได้ว่าก็ดูเขียวอุดม สมบูรณ์ สวยงามดีนะ",
       bgImg: SaltFarm.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -1253,7 +1253,7 @@ export default function handleDialog() {
     {
       id: "053",
       name: "จัน",
-      text: "นีคือทีแรกทีเราจะมาหาวัตถุดิบ",
+      text: "นี่คือที่แรกที่เราจะมาหาวัตถุดิบ",
       bgImg: SaltFarm.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1363,7 +1363,7 @@ export default function handleDialog() {
     {
       id: "058",
       name: "จัน",
-      text: "แม่เพชรให้พวกข้ามาเอา ดอกเกลือ น่ะ พอดีว่าทีครัวมันหมดแล้ว",
+      text: "แม่เพชรให้พวกข้ามาเอา ดอกเกลือ น่ะ พอดีว่าที่ครัวมันหมดแล้ว",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1385,7 +1385,7 @@ export default function handleDialog() {
     {
       id: "059",
       name: "ชาวนา",
-      text: "อย่างงันรึ หมดแบบหมด?",
+      text: "อย่างงั้นรึ หมดแบบหมด?",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1451,7 +1451,7 @@ export default function handleDialog() {
     {
       id: "062",
       name: "คุณ",
-      text: "นีนายจัน ดอกเกลือ นี มันพิเศษยังไงหรอ เกลือปกติใช้ไม่ได้หรอ",
+      text: "นี่นายจัน ดอกเกลือ นี่ มันพิเศษยังไงหรอ เกลือปกติใช้ไม่ได้หรอ",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1473,7 +1473,7 @@ export default function handleDialog() {
     {
       id: "063",
       name: "ชาวนา",
-      text: "หึ ดอกเกลือที อําเภอบ้านแหลม จังหวัดเพชรบุรี นีน่ะ เป็นเกลือชุดแรกทีลอยตัวขึนมาเกาะ ตัวเป็นแพบนผิวนํา",
+      text: "หึ ดอกเกลือที่ อําเภอบ้านแหลม จังหวัดเพชรบุรี นี่น่ะ เป็นเกลือชุดแรกทีลอยตัวขึ้นมาเกาะ ตัวเป็นแพบนผิวนํา",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1539,7 +1539,7 @@ export default function handleDialog() {
     {
       id: "066",
       name: "ชาวนา",
-      text: "ป็นรสชาติเค็มทีมีความกลมกล่อม เป็นราชาของเกลือทะเลเลยล่ะ!",
+      text: "เป็นรสชาติเค็มทีมีความกลมกล่อม เป็นราชาของเกลือทะเลเลยล่ะ!",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1605,7 +1605,7 @@ export default function handleDialog() {
     {
       id: "068",
       name: "จัน",
-      text: "ขอบคุณเจ้ามาก เดียวข้าให้คนเอารางวัลมาให้นะพวกข้าต้องรีบไปหา นํ าตาลตโนด ต่อแล้วล่ะ",
+      text: "ขอบคุณเจ้ามาก เดี๋ยวข้าให้คนเอารางวัลมาให้นะพวกข้าต้องรีบไปหา น้ำตาลโตนด ต่อแล้วล่ะ",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1627,7 +1627,7 @@ export default function handleDialog() {
     {
       id: "069",
       name: "ชาาวนา",
-      text: "อืม เจ้าเดินตรงจากทีนีไปได้เลยนะ ข้าไปก่อนล่ะ",
+      text: "อืม เจ้าเดินตรงจากที่นี่ไปได้เลยนะ ข้าไปก่อนล่ะ",
       bgImg: SaltFarm.src,
       char1: SaltFarmer.src,
       char2: Jun.src,
@@ -1671,7 +1671,7 @@ export default function handleDialog() {
     {
       id: "071",
       name: "",
-      text: "(จ้ากําลังจะเดินเข้าไปช่วย แต่ควายตัวนันหันมาแล้วร้องใส่)",
+      text: "(จ้ากําลังจะเดินเข้าไปช่วย แต่ควายตัวนั้นหันมาแล้วร้องใส่)",
       bgImg: SaltFarm.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -1891,7 +1891,7 @@ export default function handleDialog() {
     {
       id: "080",
       name: "จัน",
-      text: "มันบอกว่าถามไปงันแหละ ไม่ต้องมาช่วย เราไปกันเถอะ",
+      text: "มันบอกว่าถามไปงั้นแหละ ไม่ต้องมาช่วย เราไปกันเถอะ",
       bgImg: SaltFarm.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1913,7 +1913,7 @@ export default function handleDialog() {
     {
       id: "081",
       name: "คุณ",
-      text: "อืมมม ทีนี อ.บ้านลาด หรอ ดูโหวงๆ จังนะ",
+      text: "อืมมม ที่นี่ อ.บ้านลาด หรอ ดูโหวงๆ จังนะ",
       bgImg: ForestWay.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1935,7 +1935,7 @@ export default function handleDialog() {
     {
       id: "082",
       name: "จัน",
-      text: "ใช่แล้วแหล่งปลูกตาลทีดีทีสุดน่ะ แต่ข้าว่าเจ้าคิดไปเองแล้วแหละ",
+      text: "ใช่แล้วแหล่งปลูกตาลที่ดีที่สุดน่ะ แต่ข้าว่าเจ้าคิดไปเองแล้วแหละ",
       bgImg: ForestWay.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -1957,7 +1957,7 @@ export default function handleDialog() {
     {
       id: "083",
       name: "คุณ",
-      text: "งั้นหรอ แล้วไหน--\n(เจียก)",
+      text: "งั้นหรอ แล้วไหน--\n(เจี๊ยก)",
       bgImg: ForestWay.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -2001,7 +2001,7 @@ export default function handleDialog() {
     {
       id: "085",
       name: "ลิง",
-      text: "เจียก",
+      text: "เจี๊ยก",
       bgImg: ForestWay.src,
       char1: Jun.src,
       char2: Monkey.src,
@@ -2111,7 +2111,7 @@ export default function handleDialog() {
     {
       id: "090",
       name: "ลิง",
-      text: "เจียก",
+      text: "เจี๊ยก",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2177,7 +2177,7 @@ export default function handleDialog() {
     {
       id: "093",
       name: "ลิง",
-      text: "เจียก เจียก...ก็คุยมาตังนาน ข้านีไงเจ้าของ",
+      text: "เจี๊ยก เจี๊ยก...ก็คุยมาตั้งนาน ข้านี่ไงเจ้าของ",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2265,7 +2265,7 @@ export default function handleDialog() {
     {
       id: "097",
       name: "ลิง",
-      text: "เจียก เจียก....เหอะ หูไม่ดีแล้วยังโทษคนอืนอีก นีพวกเจ้ามาทําอะไรกันน่ะ",
+      text: "เจี๊ยก เจี๊ยก....เหอะ หูไม่ดีแล้วยังโทษคนอืนอีก นี่พวกเจ้ามาทําอะไรกันน่ะ",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2287,7 +2287,7 @@ export default function handleDialog() {
     {
       id: "098",
       name: "ลิง",
-      text: "เจียก เจียก....พวกเจ้าต้องการอะไร?",
+      text: "เจี๊ยก เจี๊ยก....พวกเจ้าต้องการอะไร?",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2309,7 +2309,7 @@ export default function handleDialog() {
     {
       id: "099",
       name: "จัน",
-      text: "พวกเรามาหานําตาลตโนดน่ะ",
+      text: "พวกเรามาหานํ้าตาลโตนดน่ะ",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2331,7 +2331,7 @@ export default function handleDialog() {
     {
       id: "100",
       name: "ลิง",
-      text: "เจียก เจียก!!....ข้าไม่ให้พวกเจ้าง่ายๆ หรอก! มีอะไรมาแลกเปลียนล่ะ!",
+      text: "เจี๊ยก เจี๊ยก!!....ข้าไม่ให้พวกเจ้าง่ายๆ หรอก! มีอะไรมาแลกเปลี่ยนล่ะ!",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2419,7 +2419,7 @@ export default function handleDialog() {
     {
       id: "104",
       name: "จัน",
-      text: "อ๊ากกก โดนจับได้แล้วงันรึ แต่ข้าไม่ให้หรอก นีมันของข้าเว้ยย！",
+      text: "อ๊ากกก โดนจับได้แล้วงั้นรึ แต่ข้าไม่ให้หรอก นี่มันของข้าเว้ยย！",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2485,7 +2485,7 @@ export default function handleDialog() {
     {
       id: "107",
       name: "ลิง",
-      text: "เจียก เจียก~~....ฮ่าๆ เป็นข้อแลกเปลียนทีน่าสนใจ งันก็รับไปเลยนําตาลโตนดของข้า",
+      text: "เจี๊ยก เจี๊ยก~~....ฮ่าๆ เป็นข้อแลกเปลี่ยนที่น่าสนใจ งั้นก็รับไปเลยนํ้าตาลโตนดของข้า",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2507,7 +2507,7 @@ export default function handleDialog() {
     {
       id: "108",
       name: "คุณ",
-      text: "จะว่าไป นําตาลโตนดของเจ้าจะพิเศษเช่นไรกัน?",
+      text: "จะว่าไป นํ้าตาลโต���ดของเจ้าจะพิเศษเช่นไรกัน?",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2529,7 +2529,7 @@ export default function handleDialog() {
     {
       id: "109",
       name: "ลิง",
-      text: "เจียกๆๆๆ!!!..อย่าบังอาจดูถูกนําตาลโตนดของข้านะ",
+      text: "เจี๊ยกๆๆๆ!!!..อย่าบังอาจดูถูกนํ้าตาลโตนดของข้านะ",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2551,7 +2551,7 @@ export default function handleDialog() {
     {
       id: "110",
       name: "ลิง",
-      text: "เจียกๆๆ (นํ าตาลโตนดทีนี มีความหวานหอม กลิน และรสชาติทีเป็นเอกลักษณ์มาก ความหวานก็กลมกล่อม รสนุ่ม ",
+      text: "เจี๊ยกๆๆ (น้ำตาลโตนดที่นี่ มีความหวานหอม กลิ่น และรสชาติที่เป็นเอกลักษณ์มาก ความหวานก็กลมกล่อม รสนุ่ม ",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2573,7 +2573,7 @@ export default function handleDialog() {
     {
       id: "111",
       name: "ลิง",
-      text: "แถมยังมีรสเค็มเจือจางจากแหล่งต้นตาลทีขึนบนพืนดินทีมีเกลือแร่ธรรมชาติอยู่มาก เช่นนีย่อมต้องพิเศษอยู่แล้ว",
+      text: "แถมยังมีรสเค็มเจือจางจากแหล่งต้นตาลที่ขึ้นบนพื้นดินที่มีเกลือแร่ธรรมชาติอยู่มาก เช่นนีย่อมต้องพิเศษอยู่แล้ว",
       bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
@@ -2683,7 +2683,7 @@ export default function handleDialog() {
     {
       id: "115",
       name: "จัน",
-      text: "อากาศทีนีช่างดียิงนัก",
+      text: "อากาศที่นี่ช่างดียิ่งนัก",
       bgImg: Beach.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -2705,7 +2705,7 @@ export default function handleDialog() {
     {
       id: "116",
       name: "คุณ",
-      text: "อากาศบริสุทธิ กับเสียงคลืนทะเลชวนให้สงบใจจริงๆ",
+      text: "อากาศบริสุทธิ กับเสียงคลื่นทะเลชวนให้สงบใจจริงๆ",
       bgImg: Beach.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -2727,7 +2727,7 @@ export default function handleDialog() {
     {
       id: "117",
       name: "จัน",
-      text: "วัตถุดิบสุดท้ายอยู่ทีนีล่ะ",
+      text: "วัตถุดิบสุดท้ายอยู่ที่นี่ล่ะ",
       bgImg: Beach.src,
       char1: Jun.src,
       char2: Hidden.src,
@@ -2771,7 +2771,7 @@ export default function handleDialog() {
     {
       id: "119",
       name: "ภูติ",
-      text: "มีแขกมาเยียมเยือนอีกแล้วสินะ ขอต้อนรับพวกท่านสู่หมู่บ้านของข้า ข้ามีนามว่า ปลนยีสา",
+      text: "มีแขกมาเยี่ยมเยือนอีกแล้วสินะ ขอต้อนรับพวกท่านสู่หมู่บ้านของข้า ข้ามีนามว่า ปลนยี่สา",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Hidden.src,
@@ -2793,7 +2793,7 @@ export default function handleDialog() {
     {
       id: "120",
       name: "คุณ",
-      text: "โห ชืออย่างจ๊าบอะ",
+      text: "โห ชื่ออย่างจ๊าบอะ",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Hidden.src,
@@ -2815,7 +2815,7 @@ export default function handleDialog() {
     {
       id: "121",
       name: "จัน",
-      text: "พูดจาพิลึกอีกแล้วนะเจ้าน่ะ แต่ก็แปลว่าพวกเรามาถูกทีแล้วสินะ ปลนยีสา เพราะทีนีมี….",
+      text: "พูดจาพิลึกอีกแล้วนะเจ้าน่ะ แต่ก็แปลว่าพวกเรามาถูกที่แล้วสินะ ปลนยี่สา เพราะที่นี่มี….",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -2836,7 +2836,7 @@ export default function handleDialog() {
     },
     {
       id: "122",
-      name: "ปลนยีสา",
+      name: "ปลนยี่สา",
       text: "…ปลายีสน!",
       bgImg: Beach.src,
       char1: Plonyisa.src,
@@ -2858,7 +2858,7 @@ export default function handleDialog() {
     },
     {
       id: "123",
-      name: "ปลนยีสา& จัน",
+      name: "ปลนยี่สา& จัน",
       text: "ผ่ามมมมมม!!!",
       bgImg: Beach.src,
       char1: Plonyisa.src,
@@ -2902,8 +2902,8 @@ export default function handleDialog() {
     },
     {
       id: "125",
-      name: "ปลนยีสา",
-      text: "ฮ่าๆๆ เจ้าช่างเป็นมนุษย์ทีอารมณ์ดีนัก ไหนบอกข้ามาซิ ว่าเหตุใดพวกเจ้าจึงต้องเดินทางมา เยียมเยียนถึงทีนี",
+      name: "ปลนยี่สา",
+      text: "ฮ่าๆๆ เจ้าช่างเป็นมนุษย์ที่อารมณ์ดีนัก ไหนบอกข้ามาซิ ว่าเหตุใดพวกเจ้าจึงต้องเดินทางมา เยี่ยมเยียนถึงที่นี่",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -2925,7 +2925,7 @@ export default function handleDialog() {
     {
       id: "126",
       name: "จัน",
-      text: "พวกเราต้องการวัตถุดิบไปทําข้าวแช่ ตอนนีพวกข้าขาดแค่ ปลายีสน แล้ว",
+      text: "พวกเราต้องการวัตถุดิบไปทําข้าวแช่ ตอนนี้พวกข้าขาดแค่ ปลายี่สน แล้ว",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -2947,7 +2947,7 @@ export default function handleDialog() {
     {
       id: "127",
       name: "ปลนยีสา",
-      text: "ข้าก็อยากช่วยพวกเจ้าอยู่หรอก แต่พึงมีเศรษฐีเหมาปลาไปหมดคลังหมู่บ้านนีสิ",
+      text: "ข้าก็อยากช่วยพวกเจ้าอยู่หรอก แต่พึ่งมีเศรษฐีเหมาปลาไปหมดคลังหมู่บ้านนี่สิ",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -2969,7 +2969,7 @@ export default function handleDialog() {
     {
       id: "128",
       name: "คุณ",
-      text: "อ้าว แล้วแบบนีจะทํายังไงดี",
+      text: "อ้าว แล้วแบบนี้จะทํายังไงดี",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -2990,8 +2990,8 @@ export default function handleDialog() {
     },
     {
       id: "129",
-      name: "ปลนยีสา",
-      text: "นับว่าพวกเจ้าโชคดีทีเจอภูตอย่างข้านะ ปกติข้าไม่ได้ปรากฏตัวให้เห็นง่ายๆ หรอก พวกเจ้า น่ะลองไปจับปลาดูสิ เดียวข้าช่วย ",
+      name: "ปลนยี่สา",
+      text: "นับว่าพวกเจ้าโชคดีที่เจอภูตอย่างข้านะ ปกติข้าไม่ได้ปรากฏตัวให้เห็นง่ายๆ หรอก พวกเจ้า น่ะลองไปจับปลาดูสิ เดี๋ยวข้าช่วย ",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3056,8 +3056,8 @@ export default function handleDialog() {
     },
     {
       id: "132",
-      name: "ปลนยีสา",
-      text: "แต่ก่อนอืนข้าขอแนะนําปลายีสนของทีนีก่อน",
+      name: "ปลนยี่สา",
+      text: "แต่ก่อนอื่นข้าขอแนะนําปลายี่สนของที่นี่ก่อน",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3078,8 +3078,8 @@ export default function handleDialog() {
     },
     {
       id: "133",
-      name: "ปลนยีสา",
-      text: "ปลายีสนมีอีกชือว่า ปลากระเบนเนือดํา เป็นวัตถุดิบพืนบ้านทีมีชือเสียงและถูกส่งออก จนต้องมีคนมา เหมาซือไปน่ะ",
+      name: "ปลนยี่สา",
+      text: "ปลายี่สนมีอีกชื่อว่า ปลากระเบนเนื้อดํา เป็นวัตถุดิบพื้นบ้านที่มีชื่อเสียงและถูกส่งออก จนต้องมีคนมา เหมาซื้อไปน่ะ",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3100,8 +3100,8 @@ export default function handleDialog() {
     },
     {
       id: "134",
-      name: "ปลนยีสา",
-      text: "เอาล่ะ ทีนีพวกเจ้าก็จัดการจับปลาเลย *ปลนยีสา เสกปลาออกมาจํานวนมาก*",
+      name: "ปลนยี่สา",
+      text: "เอาล่ะ ที่นี่พวกเจ้าก็จัดการจับปลาเลย *ปลนยี่สา เสกปลาออกมาจํานวนมาก*",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3123,7 +3123,7 @@ export default function handleDialog() {
     {
       id: "135",
       name: "",
-      text: "*คุณได้รับปลายีสนจํานวนมาก*",
+      text: "*คุณได้รับปลายี่สนจํานวนมาก*",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3189,7 +3189,7 @@ export default function handleDialog() {
     {
       id: "138",
       name: "",
-      text: "*แม้จะวุ่นวายแต่คุณได้ปลารับปลายีสนเป็นจํานวนมาก*",
+      text: "*แม้จะวุ่นวายแต่คุณได้ปลารับปลายี่สนเป็นจํานวนมาก*",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3233,7 +3233,7 @@ export default function handleDialog() {
     {
       id: "140",
       name: "คุณ & จัน",
-      text: "ขอบคุณนะท่าน พวกข้าจะไม่ลืมบุญคุณนีเลย!",
+      text: "ขอบคุณนะท่าน พวกข้าจะไม่ลืมบุญคุณนี่เลย!",
       bgImg: Beach.src,
       char1: Plonyisa.src,
       char2: Jun.src,
@@ -3299,10 +3299,10 @@ export default function handleDialog() {
     {
       id: "143",
       name: "คุณ",
-      text: "นีคือวัตถุดิบทังหมดทีพวกเราหามาได้\n(ดอกมะลิ,เกลือ,นําตาลโตนด,ปลายีสน)",
+      text: "นี่คือวัตถุดิบทั้งหมดที่พวกเราหามาได้\n(ดอกมะลิ,เกลือ,นํ้าตาลโตนด,ปลายี่สน)",
       bgImg: oldHouseClose.src,
-      char1: Hidden.src,
-      char2: Hidden.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
       btn: {
         choice1: {
           active: false,
@@ -3321,7 +3321,7 @@ export default function handleDialog() {
     {
       id: "144",
       name: "แม่เพชร",
-      text: "พวกเจ้าเก่งมาก เท่านีเราก็จะสามารถทําข้าวแช่เพชรบุรีได้แล้ว โปรดรอสักครู่หนึง",
+      text: "พวกเจ้าเก่งมาก เท่านี้เราก็จะสามารถทําข้าวแช่เพชรบุรีได้แล้ว โปรดรอสักครู่หนึง",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3387,7 +3387,7 @@ export default function handleDialog() {
     {
       id: "146",
       name: "จัน",
-      text: "น่าทานมากขอรับ! กลินก็หอมอบอวล",
+      text: "น่าทานมากขอรับ! กลิ่นก็หอมอบอวล",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3431,7 +3431,7 @@ export default function handleDialog() {
     {
       id: "148",
       name: "แม่เพชร",
-      text: "ข้าวแช่เพชรบุรี ทีเสร็จสมบูรณ์นี ประกอบไปด้วย ข้าวสวย นําลอยดอกมะลิ พร้อมกับเครืองเคียง 3 อย่างจ้ะ",
+      text: "ข้าวแช่เพชรบุรี ที่เสร็จสมบูรณ์นี่ ประกอบไปด้วย ข้าวสวย นํ้าลอยดอกมะลิ พร้อมกับเครื่องเคียง 3 อย่างจ้ะ",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3453,7 +3453,7 @@ export default function handleDialog() {
     {
       id: "149",
       name: "จัน",
-      text: "เครืองเคียงมีอะไรบ้างหรือขอรับ?",
+      text: "เครื่องเคียงมีอะไรบ้างหรือขอรับ?",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3475,7 +3475,7 @@ export default function handleDialog() {
     {
       id: "150",
       name: "แม่เพชร",
-      text: "อย่างแรกก็คือปลายีสนผัดหวาน ต่อมาคือลูกกะปิ และสุดท้ายนีก็คือไชโป๊วผัดหวานจ้ะ",
+      text: "อย่างแรกก็คือปลายี่สนผัดหวาน ต่อมาคือลูกกะปิ และสุดท้ายนีก็คือไชโป๊วผัดหวานจ้ะ",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3519,7 +3519,7 @@ export default function handleDialog() {
     {
       id: "152",
       name: "จัน",
-      text: "งันหรือขอรับ งันกระผมขอไม่เกรงใจเลยแล้วกัน!!",
+      text: "งั้นหรือขอรับ งั้นกระผมขอไม่เกรงใจเลยแล้วกัน!!",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
@@ -3541,7 +3541,7 @@ export default function handleDialog() {
     {
       id: "151",
       name: "แม่เพชร",
-      text: "ถ้าเป็นเช่นนันข้ามีอะไรมาให้เจ้าทดสอบ หากเจ้าสามารถตอบคําถามของข้าได้ถูกต้อง ทังหมด เจ้าจะได้เลือนยศตอบแทนทีเจ้าช่วยพวกข้า ",
+      text: "ถ้าเป็นเช่นนั้นข้ามีอะไรมาให้เจ้าทดสอบ หากเจ้าสามารถตอบคําถามของข้าได้ถูกต้อง ทั้งหมด เจ้าจะได้เลื่อนยศตอบแทนที่เจ้าช่วยพวกข้า ",
       bgImg: oldHouseClose.src,
       char1: Jun.src,
       char2: Meapetch.src,
