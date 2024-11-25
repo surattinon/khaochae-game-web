@@ -1209,7 +1209,7 @@ export default function handleDialog() {
     {
       id: "051",
       name: "",
-      text: " เจ้าเจอชายหาดสวยงาม แม้จะใช้เวลาเพิมอีกนิดแต่ได้ชืนชมความสว���งามและลมริม ทะเลแสนสบาย",
+      text: " เจ้าเจอชายหาดสวยงาม แม้จะใช้เวลาเพิมอีกนิดแต่ได้ชืนชม�����วามสว���งามและลมริม ทะเลแสนสบาย",
       bgImg: Beach.src,
       char1: Hidden.src,
       char2: Hidden.src,
@@ -1739,7 +1739,7 @@ export default function handleDialog() {
       name: "จัน",
       text: "มันกําลังบอกว่าไม่ต้องไปยุ่งน่ะ มันกําลังสบาย เราไปกันเถอะ",
       bgImg: SaltFarm.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1827,7 +1827,7 @@ export default function handleDialog() {
       name: "จัน",
       text: "มันกําลังบอกว่าไม่คิดจะสนใจใยดีเลยหรอ",
       bgImg: SaltFarm.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1849,7 +1849,7 @@ export default function handleDialog() {
       name: "คุณ",
       text: "อ่า ช่วยก็ได้",
       bgImg: SaltFarm.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1871,7 +1871,7 @@ export default function handleDialog() {
       name: "ควาย",
       text: "มออออออ",
       bgImg: SaltFarm.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1893,7 +1893,7 @@ export default function handleDialog() {
       name: "จัน",
       text: "มันบอกว่าถามไปงันแหละ ไม่ต้องมาช่วย เราไปกันเถอะ",
       bgImg: SaltFarm.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1915,7 +1915,7 @@ export default function handleDialog() {
       name: "คุณ",
       text: "อืมมม ทีนี อ.บ้านลาด หรอ ดูโหวงๆ จังนะ",
       bgImg: ForestWay.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1937,7 +1937,7 @@ export default function handleDialog() {
       name: "จัน",
       text: "ใช่แล้วแหล่งปลูกตาลทีดีทีสุดน่ะ แต่ข้าว่าเจ้าคิดไปเองแล้วแหละ",
       bgImg: ForestWay.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1959,7 +1959,7 @@ export default function handleDialog() {
       name: "คุณ",
       text: "งั้นหรอ แล้วไหน--\n(เจียก)",
       bgImg: ForestWay.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -1981,7 +1981,7 @@ export default function handleDialog() {
       name: "คุณ",
       text: "--เจ้าของ...?",
       bgImg: ForestWay.src,
-      char1: Hidden.src,
+      char1: Jun.src,
       char2: Hidden.src,
       btn: {
         choice1: {
@@ -2003,8 +2003,8 @@ export default function handleDialog() {
       name: "ลิง",
       text: "เจียก",
       bgImg: ForestWay.src,
-      char1: Monkey.src,
-      char2: Hidden.src,
+      char1: Jun.src,
+      char2: Monkey.src,
       btn: {
         choice1: {
           active: false,
@@ -2025,8 +2025,8 @@ export default function handleDialog() {
       name: "คุณ",
       text: "มีแค่ลิงงันหรอ?",
       bgImg: ForestWay.src,
-      char1: Monkey.src,
-      char2: Jun.src,
+      char1: Jun.src,
+      char2: Monkey.src,
       btn: {
         choice1: {
           active: false,
@@ -2047,8 +2047,8 @@ export default function handleDialog() {
       name: "จัน",
       text: "นันสินะ",
       bgImg: ForestWay.src,
-      char1: Monkey.src,
-      char2: Jun.src,
+      char1: Jun.src,
+      char2: Monkey.src,
       btn: {
         choice1: {
           active: false,
@@ -2069,8 +2069,8 @@ export default function handleDialog() {
       name: "คุณ",
       text: "งั้นทำยังงไงดีล่ะ",
       bgImg: ForestWay.src,
-      char1: Monkey.src,
-      char2: Jun.src,
+      char1: Jun.src,
+      char2: Monkey.src,
       btn: {
         choice1: {
           active: false,
@@ -2091,8 +2091,1482 @@ export default function handleDialog() {
       name: "จัน",
       text: "ลองถามมันดูสิ",
       bgImg: ForestWay.src,
+      char1: Jun.src,
+      char2: Monkey.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "090",
+      name: "ลิง",
+      text: "เจียก",
+      bgImg: ForestWay.src,
       char1: Monkey.src,
       char2: Jun.src,
+      btn: {
+        choice1: {
+          active: true,
+          text: "นี่....",
+        },
+        choice2: {
+          active: true,
+          text: "คือว่า....",
+        },
+        nextBtn: {
+          active: false,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "091",
+      name: "คุณ",
+      text: "นี…. เจ้าของสวนอยู่ไหนละ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "092",
+      name: "คุณ",
+      text: "คือว่า…. นายเห็นเจ้าของสวนไหม",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "093",
+      name: "ลิง",
+      text: "เจียก เจียก...ก็คุยมาตังนาน ข้านีไงเจ้าของ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "094",
+      name: "คุณ",
+      text: "??? ทําไมฟังรู้เรืองนะ??",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "095",
+      name: "จัน",
+      text: "หุหุหุ หึหึหึ ฮ่าฮ่าฮ่า",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "096",
+      name: "คุณ",
+      text: "นีนายก็รู้อยู่แล้วหรอ!?",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "097",
+      name: "ลิง",
+      text: "เจียก เจียก....เหอะ หูไม่ดีแล้วยังโทษคนอืนอีก นีพวกเจ้ามาทําอะไรกันน่ะ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "098",
+      name: "ลิง",
+      text: "เจียก เจียก....พวกเจ้าต้องการอะไร?",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "099",
+      name: "จัน",
+      text: "พวกเรามาหานําตาลตโนดน่ะ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "100",
+      name: "ลิง",
+      text: "เจียก เจียก!!....ข้าไม่ให้พวกเจ้าง่ายๆ หรอก! มีอะไรมาแลกเปลียนล่ะ!",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "101",
+      name: "คุณ",
+      text: "ข้าว่าพวกเรามีนะ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "102",
+      name: "จัน",
+      text: "มีรึ? มีอะไร???",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "103",
+      name: "คุณ",
+      text: "ระหว่างทางนายแอบเก็บกล้วยข้างทางมาด้วยแท้ๆ คิดว่าชันไม่รึไง",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "104",
+      name: "จัน",
+      text: "อ๊ากกก โดนจับได้แล้วงันรึ แต่ข้าไม่ให้หรอก นีมันของข้าเว้ยย！",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: true,
+          text: "แย่งกล้วย",
+        },
+        choice2: {
+          active: true,
+          text: "ยืนมองด้วยสายตาบีบบังคับ",
+        },
+        nextBtn: {
+          active: false,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "105",
+      name: "จัน",
+      text: "ไม่นะ กล้วยของข้า!! จิตใจเจ้าอมหิตนัก!",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "106",
+      name: "จัน",
+      text: "ก็ได้ๆ ไม่เห็นต้องทําสายตาน่ากลัว เช่นนันเลย",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "107",
+      name: "ลิง",
+      text: "เจียก เจียก~~....ฮ่าๆ เป็นข้อแลกเปลียนทีน่าสนใจ งันก็รับไปเลยนําตาลโตนดของข้า",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "108",
+      name: "คุณ",
+      text: "จะว่าไป นําตาลโตนดของเจ้าจะพิเศษเช่นไรกัน?",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "109",
+      name: "ลิง",
+      text: "เจียกๆๆๆ!!!..อย่าบังอาจดูถูกนําตาลโตนดของข้านะ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "110",
+      name: "ลิง",
+      text: "เจียกๆๆ (นํ าตาลโตนดทีนี มีความหวานหอม กลิน และรสชาติทีเป็นเอกลักษณ์มาก ความหวานก็กลมกล่อม รสนุ่ม ",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "111",
+      name: "ลิง",
+      text: "แถมยังมีรสเค็มเจือจางจากแหล่งต้นตาลทีขึนบนพืนดินทีมีเกลือแร่ธรรมชาติอยู่มาก เช่นนีย่อมต้องพิเศษอยู่แล้ว",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "112",
+      name: "คุณ",
+      text: "อย่างนีนีเอง!",
+      bgImg: ForestWay.src,
+      char1: Monkey.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "113",
+      name: "จัน",
+      text: "หึ",
+      bgImg: ForestWay.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "113",
+      name: "คุณ",
+      text: "เอาน่าจัน เราไปกันต่อเถอะ",
+      bgImg: ForestWay.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "114",
+      name: "จัน",
+      text: "ไปก็ไป",
+      bgImg: ForestWay.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "115",
+      name: "จัน",
+      text: "อากาศทีนีช่างดียิงนัก",
+      bgImg: Beach.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "116",
+      name: "คุณ",
+      text: "อากาศบริสุทธิ กับเสียงคลืนทะเลชวนให้สงบใจจริงๆ",
+      bgImg: Beach.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "117",
+      name: "จัน",
+      text: "วัตถุดิบสุดท้ายอยู่ทีนีล่ะ",
+      bgImg: Beach.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "118",
+      name: "คุณ",
+      text: "คืออะไรหรอ",
+      bgImg: Beach.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "119",
+      name: "ภูติ",
+      text: "มีแขกมาเยียมเยือนอีกแล้วสินะ ขอต้อนรับพวกท่านสู่หมู่บ้านของข้า ข้ามีนามว่า ปลนยีสา",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "120",
+      name: "คุณ",
+      text: "โห ชืออย่างจ๊าบอะ",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "121",
+      name: "จัน",
+      text: "พูดจาพิลึกอีกแล้วนะเจ้าน่ะ แต่ก็แปลว่าพวกเรามาถูกทีแล้วสินะ ปลนยีสา เพราะทีนีมี….",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "122",
+      name: "ปลนยีสา",
+      text: "…ปลายีสน!",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "123",
+      name: "ปลนยีสา& จัน",
+      text: "ผ่ามมมมมม!!!",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "124",
+      name: "คุณ",
+      text: "............",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "125",
+      name: "ปลนยีสา",
+      text: "ฮ่าๆๆ เจ้าช่างเป็นมนุษย์ทีอารมณ์ดีนัก ไหนบอกข้ามาซิ ว่าเหตุใดพวกเจ้าจึงต้องเดินทางมา เยียมเยียนถึงทีนี",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "126",
+      name: "จัน",
+      text: "พวกเราต้องการวัตถุดิบไปทําข้าวแช่ ตอนนีพวกข้าขาดแค่ ปลายีสน แล้ว",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "127",
+      name: "ปลนยีสา",
+      text: "ข้าก็อยากช่วยพวกเจ้าอยู่หรอก แต่พึงมีเศรษฐีเหมาปลาไปหมดคลังหมู่บ้านนีสิ",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "128",
+      name: "คุณ",
+      text: "อ้าว แล้วแบบนีจะทํายังไงดี",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "129",
+      name: "ปลนยีสา",
+      text: "นับว่าพวกเจ้าโชคดีทีเจอภูตอย่างข้านะ ปกติข้าไม่ได้ปรากฏตัวให้เห็นง่ายๆ หรอก พวกเจ้า น่ะลองไปจับปลาดูสิ เดียวข้าช่วย ",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "130",
+      name: "จัน",
+      text: "ยุ่งยากอีกแล้ว",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "131",
+      name: "คุณ",
+      text: "น่าสนุกดีออก",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "132",
+      name: "ปลนยีสา",
+      text: "แต่ก่อนอืนข้าขอแนะนําปลายีสนของทีนีก่อน",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "133",
+      name: "ปลนยีสา",
+      text: "ปลายีสนมีอีกชือว่า ปลากระเบนเนือดํา เป็นวัตถุดิบพืนบ้านทีมีชือเสียงและถูกส่งออก จนต้องมีคนมา เหมาซือไปน่ะ",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "134",
+      name: "ปลนยีสา",
+      text: "เอาล่ะ ทีนีพวกเจ้าก็จัดการจับปลาเลย *ปลนยีสา เสกปลาออกมาจํานวนมาก*",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: true,
+          text: "รีบวิ่งไปจับปลา",
+        },
+        choice2: {
+          active: true,
+          text: "ผลักนายจันลงทะเล",
+        },
+        nextBtn: {
+          active: false,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "135",
+      name: "",
+      text: "*คุณได้รับปลายีสนจํานวนมาก*",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "136",
+      name: "คุณ",
+      text: "ลุยเลยจัน ฉันเลือกนาย",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "137",
+      name: "จัน",
+      text: "อ๊ากกก! เจ้าบังอาจแกล้งข้ารึ!?",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "138",
+      name: "",
+      text: "*คุณได้รับปลายีสนจํานวนมาก*",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "139",
+      name: "ปลนยี่สา",
+      text: "งันเท่านีก็คงหมดหน้าทีของข้าแล้ว ขอให้พวกเจ้าเดินทางกลับโดยสวัสดิภาพ",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "140",
+      name: "คุณ & จัน",
+      text: "ขอบคุณนะท่าน พวกข้าจะไม่ลืมบุญคุณนีเลย!",
+      bgImg: Beach.src,
+      char1: Plonyisa.src,
+      char2: Jun.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "141",
+      name: "จัน",
+      text: "พวกข้ากลับมาแล้วขอรับนายหญิง!!",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Hidden.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "142",
+      name: "แม่เพชร",
+      text: "ข้ากําลังรออยู่พอดี พวกเจ้าออกไปนานมากทีเดียว",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "143",
+      name: "คุณ",
+      text: "นีคือวัตถุดิบทังหมดทีพวกเราหามาได้\n(ดอกมะลิ,เกลือ,นําตาลโตนด,ปลายีสน)",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "144",
+      name: "แม่เพชร",
+      text: "พวกเจ้าเก่งมาก เท่านีเราก็จะสามารถทําข้าวแช่เพชรบุรีได้แล้ว โปรดรอสักครู่หนึง",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "145",
+      name: "",
+      text: "*แม่เพชรหายไปในครัวสักพักหนึง และออกมาพร้อมกับข้าวแช่ทีสําเร็จแล้ว*",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "145",
+      name: "แม่เพชร",
+      text: "เป็นอย่างไร น่าทานใช่ไหมล่ะ",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "146",
+      name: "จัน",
+      text: "น่าทานมากขอรับ! กลินก็หอมอบอวล",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "147",
+      name: "คุณ",
+      text: "หิวโหยมาก! ว่าแต่ในนีมีอะไรบ้างหรอ?",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "148",
+      name: "แม่เพชร",
+      text: "ข้าวแช่เพชรบุรี ทีเสร็จสมบูรณ์นี ประกอบไปด้วย ข้าวสวย นําลอยดอกมะลิ พร้อมกับเครืองเคียง 3 อย่างจ้ะ",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "149",
+      name: "จัน",
+      text: "เครืองเคียงมีอะไรบ้างหรือขอรับ?",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "150",
+      name: "แม่เพชร",
+      text: "อย่างแรกก็คือปลายีสนผัดหวาน ต่อมาคือลูกกะปิ และสุดท้ายนีก็คือไชโป๊วผัดหวานจ้ะ",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "151",
+      name: "แม่เพชร",
+      text: "พวกเจ้าสามารถลองชิมได้เลยนะจ๊ะ",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "152",
+      name: "จัน",
+      text: "งันหรือขอรับ งันกระผมขอไม่เกรงใจเลยแล้วกัน!!",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: true,
+          text: "อร่อยจัด สุโก้ยยย!!",
+        },
+        choice2: {
+          active: true,
+          text: "อร่อยแสงออกปาก โฮกกกก!!",
+        },
+        nextBtn: {
+          active: false,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "151",
+      name: "แม่เพชร",
+      text: "ถ้าเป็นเช่นนันข้ามีอะไรมาให้เจ้าทดสอบ หากเจ้าสามารถตอบคําถามของข้าได้ถูกต้อง ทังหมด เจ้าจะได้เลือนยศตอบแทนทีเจ้าช่วยพวกข้า ",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
+      btn: {
+        choice1: {
+          active: false,
+          text: "",
+        },
+        choice2: {
+          active: false,
+          text: "",
+        },
+        nextBtn: {
+          active: true,
+          text: "ต่อไป",
+        },
+      },
+    },
+    {
+      id: "151",
+      name: "คุณ",
+      text: "จัดมาได้โลยยยยย!!",
+      bgImg: oldHouseClose.src,
+      char1: Jun.src,
+      char2: Meapetch.src,
       btn: {
         choice1: {
           active: false,
