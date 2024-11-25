@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import handleDialog from "./handleDialog";
 import MaliItem from "./components/MaliItem";
 import { Ingediant } from "./components/Ingediant";
+import SoundBg from "../Sound/SoundBg";
 
 export default function Home() {
   const [DialogIndex, setDialogIndex] = React.useState(0);
@@ -108,6 +109,7 @@ export default function Home() {
 
   return (
     <main className="bg-blue-300 w-screen h-screen">
+      <SoundBg />
       <div className="relative w-full h-full flex flex-col justify-around item-center content-center">
         <div>
           <Image

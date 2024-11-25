@@ -7,7 +7,7 @@ import Fish from "../../img/elements/ปลายี่สน.png";
 export const Ingediant = () => {
   const size = 80;
   return (
-    <div className="absolute z-30 w-screen h-60 flex justify-center self-center bottom-52">
+    <div className="absolute z-30 w-screen h-60 flex justify-center self-center bottom-44">
       <Image
         className="self-center"
         src={MaliFlower}
