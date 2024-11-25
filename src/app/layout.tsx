@@ -15,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mali.className} antialiased`}>{children}</body>
+      <body className={`${mali.className} antialiased overflow-y-hidden`}>
+        {children}
+      </body>
     </html>
   );
 }

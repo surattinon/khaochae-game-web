@@ -118,7 +118,7 @@ export default function Home() {
           />
         </div>
         <div
-          className={`z-50 absolute flex flex-col justify-between w-80 h-60 bg-white border-solid border-[#725949] border-[7px] self-center bottom-14 rounded-2xl p-3 transition-all duration-700 shadow-lg`}
+          className={`z-50 absolute flex flex-col justify-between w-80 h-60 bg-white border-solid border-[#725949] border-[7px] self-center bottom-8 rounded-2xl p-3 transition-all duration-700 shadow-lg`}
           style={{
             opacity: `${Opacity}`,
           }}
