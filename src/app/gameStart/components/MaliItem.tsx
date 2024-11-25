@@ -3,7 +3,7 @@ import MaliFlower from "../../img/elements/ดอกมะลิ.png";
 
 export default function MaliItem() {
   return (
-    <div className="absolute z-60 w-screen h-60 flex flex-col justify-center self-center">
+    <div className="absolute z-60 w-screen h-60 flex flex-col justify-center self-center bottom-[27rem]">
       <Image
         className="absolute self-center left-6"
         src={MaliFlower}

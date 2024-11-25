@@ -3301,8 +3301,8 @@ export default function handleDialog() {
       name: "คุณ",
       text: "นีคือวัตถุดิบทังหมดทีพวกเราหามาได้\n(ดอกมะลิ,เกลือ,นําตาลโตนด,ปลายีสน)",
       bgImg: oldHouseClose.src,
-      char1: Jun.src,
-      char2: Meapetch.src,
+      char1: Hidden.src,
+      char2: Hidden.src,
       btn: {
         choice1: {
           active: false,
